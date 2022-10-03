@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login - WHC.CA</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="/assets/js/jquery.min.js?v43"></script>
+
+<!-- Custom Styling -->
+<link rel="stylesheet" href="/templates/hwc-six/css/custom.css?v43">
+
+<link rel="icon" type="image/x-icon" href="https://whc.ca/favicon.ico">
+
+<!-- Styling -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600|Raleway:400,700" rel="stylesheet">
+<link href="/templates/hwc-six/css/all.min.css?v=f67d32" rel="stylesheet">
+<link href="/assets/css/fontawesome-all.min.css" rel="stylesheet">
+<link href="/templates/hwc-six/css/custom.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    var csrfToken = '060269b2260fd2bcd4089f7a077b5e1b932543ec',
+        markdownGuide = 'Markdown Guide',
+        locale = 'en',
+        saved = 'saved',
+        saving = 'autosaving',
+        whmcsBaseUrl = "",
+        requiredText = 'Required',
+        recaptchaSiteKey = "6Lf75MYUAAAAAIdCD3G_rGMZKHUzvKf53BsTzlol";
+</script>
+<script src="/templates/hwc-six/js/scripts.min.js?v=f67d32"></script>
+
+
+
+<!-- WHC Styling -->
+<link href="/templates/hwc-six/css/overrides.css?v43" rel="stylesheet">
+<link href="/templates/hwc-six/css/styles.css?v43" rel="stylesheet">
+<link href="/templates/hwc-six/css/whc.css?v43" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="assets/css/weebly.css">
+
+<script src="/templates/hwc-six/js/whc.js?v43"></script>
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:735481,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2559764-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-2559764-5');
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+</head>
+<body class=" indexphprplogin indexphp notcartphp loggedout cartempty     ">
+	
+        <div class="highest-header">
+  		<div class="client-area-max-width">
+			<ul id="highest-nav">
+                                                            <li><a href="/index.php?rp=%2Flogin&amp;language=french">Français</a></li>
+                                    				<li><a href="https://clients.whc.ca/en/knowledgebase">Help</a></li>
+				<li><a href="https://whc.ca/blog/en">Blog</a></li>
+				<li class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact <b class="caret"></b></a>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<a href="tel:+15145042113"><li><i class="fas fa-phone" aria-hidden="true"></i>1-514-504-2113 <!--<small>International</small>--></li></a>
+						<!--<a href="tel:+18885453942"><li><i class="fas fa-phone" aria-hidden="true"></i>1-888-545-3942 <small>Toll-free</small></li></a>-->
+						<a href="#" onclick="phplive_launch_chat_1557501240(0)"><li><i class="fas fa-comment" aria-hidden="true"></i>Chat now</li></a>
+						<a href="https://clients.whc.ca/submitticket.php?step=2&deptid=2"><li><i class="fa fa-ticket fas fa-ticket-alt" aria-hidden="true"></i>Open a ticket</li></a>
+						<a href="https://whc.ca/contact-us"><li><i class="fas fa-envelope" aria-hidden="true"></i>Contact us</li></a>
+					</ul>
+				</li>
+								<li><a href="https://clients.whc.ca/en"><i class="fas fa-user-circle" aria-hidden="true"></i>Client Area</a></li>
+							</ul>
+		</div>
+</div>
+<section id="header">
+  <div class="container loggedout-container">
+        <!-- Top Bar -->
+    <div id="top-nav">
+
+      <!-- Login/Account Notifications -->
+            <div class="pull-right nav"> <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> Login</a>
+        <div id="loginOrRegisterContent" class="hidden">
+          <form action="https://clients.whc.ca/dologin.php" method="post" role="form">
+<input type="hidden" name="token" value="060269b2260fd2bcd4089f7a077b5e1b932543ec" />
+            <div class="form-group">
+              <input type="email" name="username" class="form-control" placeholder="Email Address" required />
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="password" name="password" class="form-control" placeholder="Password" required />
+                <span class="input-group-btn">
+                <input type="submit" class="btn btn-primary" value="Login" />
+                </span> </div>
+            </div>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="rememberme" />
+              Remember Me &bull; <a href="/pwreset.php">Forgot Password?</a> </label>
+          </form>
+                    <hr />
+          <strong>Not Yet Registered?</strong> <a href="/register.php">Click here to signup...</a>
+           </div>
+      </div>
+            <!-- Shopping Cart -->
+      <div class="pull-right nav"> <a href="/cart.php?a=view" class="quick-nav"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">View Cart (</span><span id="cartItemCount">0</span><span class="hidden-xs">)</span></a> </div>
+       </div>
+    <a class="btn btn-outline-dark pull-right float-right" href="#" onclick="phplive_launch_chat_1557501240(0)"><i class="fa fas fa-comments"></i>Live Chat</a>
+	<!--<a class="btn text-dark pull-right float-right" href="tel:+15145042113">24/7 Support <strong>1-514-504-2113</strong></a>-->
+	<div class="main-logo-header">
+    	<a  href="https://whc.ca">
+        <img src="/templates/hwc-six/img/logo-english.svg" alt="WHC.CA" /></a>
+    </div>
+    <div class="area cart"><strong>Secure</strong> Order Form</div>
+
+      		      <div class="loggedout-menu-container">
+           <nav class="navbar navbar-default nav-loggedout">
+            <div>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loggedout-menu-button" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="loggedout-menu-button" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav" style="text-align: right;">
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Hosting &amp Servers</a>
+                <ul class="dropdown-menu">
+                      <li><a href="https://whc.ca/canadian-web-hosting">Canadian Web Hosting</a></li>
+                      <li><a href="https://whc.ca/canadian-cloud-servers">Canadian Cloud Servers</a></li>
+                      <li><a href="https://whc.ca/reseller-web-hosting">Resellers Web Hosting</a></li>
+                      <li><a href="https://whc.ca/dedicated-servers">Canadian Dedicated Servers</a></li>
+                      <li><a href="https://whc.ca/anycast-dns">Anycast DNS</a></li>                
+                </ul>
+              </li>
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Domain Names</a>
+                <ul class="dropdown-menu">
+                      <li><a href="https://whc.ca/domain-names/search">Domain Name Search</a></li>
+                      <li><a href="https://whc.ca/domain-names/transfer">Domain Name transfer</a></li>             
+                </ul>
+               </li>
+              <li><a href="https://whc.ca/weebly-site-builder">Websites</a></li>
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Email</a>
+                   <ul class="dropdown-menu">
+                          <li><a href="https://whc.ca/email-marketing">Email Marketing</a></li>
+                          <li><a href="https://whc.ca/email/entreprise-anti-spam/">Entreprise Anti-Spam</a></li>             
+                    </ul>
+               
+               </li>
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Online Marketing</a>
+                <ul class="dropdown-menu">
+                      <li><a href="https://whc.ca/search-engine-optimization">Search Engine Optimization</a></li>
+                      <li><a href="https://whc.ca/search-engine-optimization">Email Marketing</a></li>             
+                </ul>
+               </li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Security &amp SSL</a>
+                <ul class="dropdown-menu">
+                      <li><a href="https://whc.ca/ssl-certificates">SSL Certificates</a></li>
+                      <li><a href="https://whc.ca/sitesafe-protection">SiteSafe Protection</a></li> 
+                      <li><a href="https://whc.ca/email/entreprise-anti-spam/">Entreprise Anti-Spam</a></li>        
+                </ul>
+              </li>
+              <!--
+               <li><a href="#">Hot Deals</a></li>-->
+            </ul>
+            </div>
+          </div>
+        </nav>
+      </div>         <div class="area all"><a href="">Client Area</a></div>
+	<div class="area help"><a href="/knowledgebase">Help Center</a></div>
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
+
+    <div class='live-chat-fixed'>Live Chat »</div>
+
+  </div>
+</section>
+  </div>
+</section>
+<div class="rainbow"></div>
+<section id="main-menu">
+  <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+               <li menuItemName="Home" class="" id="Primary_Navbar-Home">
+        <a href="/index.php">
+                        Client Area
+                                </a>
+            </li>
+     <li menuItemName="Store" class="dropdown" id="Primary_Navbar-Store">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Store
+                        &nbsp;<b class="caret"></b>        </a>
+                    <ul class="dropdown-menu">
+                            <li menuItemName="Browse Products Services" id="Primary_Navbar-Store-Browse_Products_Services">
+                    <a href="/index.php?rp=/store">
+                                                Browse All
+                                            </a>
+                </li>
+                            <li menuItemName="Shop Divider 1" class="nav-divider" id="Primary_Navbar-Store-Shop_Divider_1">
+                    <a href="">
+                                                -----
+                                            </a>
+                </li>
+                            <li menuItemName="SpamExperts" id="Primary_Navbar-Store-SpamExperts">
+                    <a href="/index.php?rp=/store/spamexperts">
+                                                SpamExperts
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Web Hosting&lt;/English&gt;&lt;French&gt;Hébergement Web&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Web_Hosting&lt;_English&gt;&lt;French&gt;Hébergement_Web&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishweb-hostingenglishfrenchhebergement-webfrench">
+                                                &lt;English&gt;Web Hosting&lt;/English&gt;&lt;French&gt;Hébergement Web&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Weebly Site Builder&lt;/English&gt;&lt;French&gt;Créateur web Weebly&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Weebly_Site_Builder&lt;_English&gt;&lt;French&gt;Créateur_web_Weebly&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishweebly-site-builderenglishfrenchcreateur-web-weeblyfrench">
+                                                &lt;English&gt;Weebly Site Builder&lt;/English&gt;&lt;French&gt;Créateur web Weebly&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Cloud Server&lt;/English&gt;&lt;French&gt;Serveur Cloud&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Cloud_Server&lt;_English&gt;&lt;French&gt;Serveur_Cloud&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishcloud-serverenglishfrenchserveur-cloudfrench">
+                                                &lt;English&gt;Cloud Server&lt;/English&gt;&lt;French&gt;Serveur Cloud&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Reseller Hosting&lt;/English&gt;&lt;French&gt;Hébergement Revendeur&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Reseller_Hosting&lt;_English&gt;&lt;French&gt;Hébergement_Revendeur&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishreseller-hostingenglishfrenchhebergement-revendeurfrench">
+                                                &lt;English&gt;Reseller Hosting&lt;/English&gt;&lt;French&gt;Hébergement Revendeur&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Security &amp; SSL&lt;/English&gt;&lt;French&gt;Sécurité et SSL&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Security_&amp;_SSL&lt;_English&gt;&lt;French&gt;Sécurité_et_SSL&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishsecurity-and-sslenglishfrenchsecurite-et-sslfrench">
+                                                &lt;English&gt;Security &amp; SSL&lt;/English&gt;&lt;French&gt;Sécurité et SSL&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Dedicated Server&lt;/English&gt;&lt;French&gt;Serveur Dédié&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Dedicated_Server&lt;_English&gt;&lt;French&gt;Serveur_Dédié&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishdedicated-serverenglishfrenchserveur-dediefrench">
+                                                &lt;English&gt;Dedicated Server&lt;/English&gt;&lt;French&gt;Serveur Dédié&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="&lt;English&gt;Email Marketing&lt;/English&gt;&lt;French&gt;Marketing par Courriel&lt;/French&gt;" id="Primary_Navbar-Store-&lt;English&gt;Email_Marketing&lt;_English&gt;&lt;French&gt;Marketing_par_Courriel&lt;_French&gt;">
+                    <a href="/index.php?rp=/store/englishemail-marketingenglishfrenchmarketing-par-courrielfrench">
+                                                &lt;English&gt;Email Marketing&lt;/English&gt;&lt;French&gt;Marketing par Courriel&lt;/French&gt;
+                                            </a>
+                </li>
+                            <li menuItemName="WordPress" id="Primary_Navbar-Store-WordPress">
+                    <a href="/index.php?rp=/store/wordpress">
+                                                WordPress
+                                            </a>
+                </li>
+                            <li menuItemName="Backorders" id="Primary_Navbar-Store-Backorders">
+                    <a href="/index.php?rp=/store/backorders">
+                                                Backorders
+                                            </a>
+                </li>
+                            <li menuItemName="Sibername" id="Primary_Navbar-Store-Sibername">
+                    <a href="/index.php?rp=/store/sibername">
+                                                Sibername
+                                            </a>
+                </li>
+                            <li menuItemName="SiteSafe" id="Primary_Navbar-Store-SiteSafe">
+                    <a href="/index.php?rp=/store/sitesafe">
+                                                SiteSafe
+                                            </a>
+                </li>
+                            <li menuItemName="Register a New Domain" id="Primary_Navbar-Store-Register_a_New_Domain">
+                    <a href="/cart.php?a=add&domain=register">
+                                                Register a New Domain
+                                            </a>
+                </li>
+                            <li menuItemName="Transfer a Domain to Us" id="Primary_Navbar-Store-Transfer_a_Domain_to_Us">
+                    <a href="/cart.php?a=add&domain=transfer">
+                                                Transfer Domains to Us
+                                            </a>
+                </li>
+                        </ul>
+            </li>
+     <li menuItemName="Announcements" class="" id="Primary_Navbar-Announcements">
+        <a href="/index.php?rp=/announcements">
+                        Announcements
+                                </a>
+            </li>
+     <li menuItemName="Knowledgebase" class="" id="Primary_Navbar-Knowledgebase">
+        <a href="/index.php?rp=/knowledgebase">
+                        Knowledgebase
+                                </a>
+            </li>
+     <li menuItemName="Network Status" class="" id="Primary_Navbar-Network_Status">
+        <a href="/serverstatus.php">
+                        Network Status
+                                </a>
+            </li>
+     <li menuItemName="Affiliates" class="" id="Primary_Navbar-Affiliates">
+        <a href="/affiliates.php">
+                        Affiliates
+                                </a>
+            </li>
+     <li menuItemName="Contact Us" class="" id="Primary_Navbar-Contact_Us">
+        <a href="/contact.php">
+                        Contact Us
+                                </a>
+            </li>
+	<li class="mobileOnly" menuitemname="Help" id="Primary_Navbar-Help"><a href="/knowledgebase">Help</a></li>
+	<li class="mobileOnly" menuitemname="Blog" id="Primary_Navbar-Blog"><a href="https://whc.ca/blog/en">Blog</a></li>
+		<li class="mobileOnly" menuitemname="Lang" id="Primary_Navbar-Lang"><a href="/index.php?rp=%2Flogin&amp;language=french">Français</a></li>
+	        </ul>
+        <ul class="nav navbar-nav navbar-right">
+               <li menuItemName="Account" class="dropdown" id="Secondary_Navbar-Account">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        My Settings
+                        &nbsp;<b class="caret"></b>        </a>
+                    <ul class="dropdown-menu">
+                            <li menuItemName="Login" id="Secondary_Navbar-Account-Login">
+                    <a href="/clientarea.php">
+                                                Login
+                                            </a>
+                </li>
+                            <li menuItemName="Register" id="Secondary_Navbar-Account-Register">
+                    <a href="/register.php">
+                                                Register
+                                            </a>
+                </li>
+                            <li menuItemName="Divider" class="nav-divider" id="Secondary_Navbar-Account-Divider">
+                    <a href="">
+                                                -----
+                                            </a>
+                </li>
+                            <li menuItemName="Forgot Password?" id="Secondary_Navbar-Account-Forgot_Password?">
+                    <a href="/index.php?rp=/password/reset">
+                                                Forgot Password?
+                                            </a>
+                </li>
+                            <li menuItemName="Green Badges" id="Secondary_Navbar-Account-Green_Badges">
+                    <a href="/badges.php">
+                                                My Green Hosting Badge
+                                            </a>
+                </li>
+                        </ul>
+            </li>
+	<li class="mobileOnly" menuitemname="Help" id="Primary_Navbar-Help"><a href="/knowledgebase">Help</a></li>
+	<li class="mobileOnly" menuitemname="Blog" id="Primary_Navbar-Blog"><a href="https://whc.ca/blog/en">Blog</a></li>
+		<li class="mobileOnly" menuitemname="Lang" id="Primary_Navbar-Lang"><a href="/index.php?rp=%2Flogin&amp;language=french">Français</a></li>
+	        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+  </nav>
+</section>
+ 	<!--		<div class="container-fluid loggedout-banner-container">
+			<div class="row">
+				<div class="loggedout-banner-wrapper">
+                	Thank you for making Web Hosting Canada <span>Canada's #1 Domain Name Provider</span>
+                </div>
+			</div>
+		</div> -->
+     <section class="breadscrumb-nav" style="display:none;">
+  <div>
+    <ul >
+      <li>Configuration de Domaine</li>
+      <li>informations</li>
+      <li>Méthode de paiement</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="main-body" class="container  ">
+<div class="row">
+<!-- Container for main page display content -->
+<div class="col-xs-12 main-content">
+
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="/templates/hwc-six/css/custom.css?v43">
+<link href="/templates/hwc-six/css/overrides.css?v43" rel="stylesheet">
+<link href="/templates/hwc-six/css/styles.css?v43" rel="stylesheet">
+<link href="/templates/hwc-six/css/whc.css?v43" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+TOUT CE QUI EST AU-DESSUS DE CE COMMENTAIRE NE DOIT PAS ÊTRE ICI -->
+
+
+<link href="/templates/hwc-six/css/login.css" rel="stylesheet">
+
+<div class="text-center">
+<div class="logincontainer"> <a href="https://whc.ca"><img src="/templates/hwc-six/img/picto-whc.svg" alt="Web Hosting Canada"></a>
+  <h2 class="form-signin-heading">Sign in to WHC</h2>
+    <div class="header-lined">
+    <h1>Login <small>This page is restricted</small> </h1>
+    </div>
+        <form method="post" action="/index.php?rp=/login" class="login-form" role="form">
+<input type="hidden" name="token" value="060269b2260fd2bcd4089f7a077b5e1b932543ec" />
+        <i class="fas fa-user"></i>
+		<input type="email" name="username" class="form-control" id="inputEmail" placeholder="Enter email" autofocus>
+        <i class="fas fa-lock"></i>
+		<input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" autocomplete="off" >
+      <div class="checkbox text-center">
+        <label>
+          <input type="checkbox" name="rememberme" />
+          Remember Me </label>
+        <a href="/index.php?rp=/password/reset" class="text-center btn-block text-secondary">Forgot Password?</a>
+      </div>
+            <div class="text-center margin-bottom">  </div>
+            <input id="login" type="submit" class="btn btn-lg btn-block btn-primary" value="Log In" />
+    </form>
+    <div class="noclient text-left">
+      New to WHC? <a href="/register.php" class=" text-secondary">Sign up</a> <a href="/index.php?rp=%2Flogin&amp;language=french" class="float-right text-secondary"><i class="fas fa-sync-alt" aria-hidden="true"></i> FR</a>
+    </div>
+</div>
+</div>
+
+                </div><!-- /.main-content -->
+                            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>
+<section id="pre-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-sm-4 col-xs-12">
+				<ul>
+					<li>Hosting &amp; Servers</li>
+					<li><a href="https://whc.ca/canadian-web-hosting">Canadian Web Hosting</a></li>
+					<li><a href="https://whc.ca/canadian-cloud-servers">Canadian Cloud Servers</a></li>
+					<li><a href="https://whc.ca/reseller-web-hosting">Reseller Web Hosting</a></li>
+					<li><a href="https://whc.ca/dedicated-servers">Dedicated Servers</a></li>
+					<li><a href="https://whc.ca/managed-wordpress-hosting">Managed WordPress</a></li>
+					<li><a href="https://whc.ca/anycast-dns">Anycast DNS</a></li>
+					<li><a href="https://whc.ca/free-website-transfer">Free Website Migration</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-12">
+				<ul>
+					<li>Domain &amp; Website</li>
+					<li><a href="https://whc.ca/domain-names/search">Domain Name Search</a></li>
+					<li><a href="https://whc.ca/domain-names/transfer">Domain Name Transfer</a></li>
+					<li><a href="https://whc.ca/weebly-site-builder">Weebly Site Builder</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-12">
+				<ul>
+					<li>Security &amp; SSL</li>
+					<li><a href="https://whc.ca/ssl-certificates">SSL Certificates</a></li>
+					<li><a href="https://whc.ca/sitesafe-protection">SiteSafe Protection</a></li>
+					<li><a href="https://whc.ca/email/entreprise-anti-spam/">Enterprise Anti-Spam</a></li>
+					<li><a href="https://whc.ca/privacy-protection">Domain Privacy Protection</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-12">
+				<ul>
+					<li>Online Marketing</li>
+					<li><a href="https://whc.ca/search-engine-optimization">Search Engine Optimization</a></li>
+					<li><a href="https://whc.ca/email-marketing">Email Marketing</a></li>
+					<li><a href="https://whc.ca/affiliates">Affiliate Program</a></li>			
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-12">
+				<ul>
+					<li>Company</li>
+					<li><a href="https://whc.ca/blog/en">Blog &amp; News</a></li>
+					<li><a href="https://whc.ca/about-web-hosting-canada">About WHC</a></li>
+					<li><a href="https://whc.ca/contact-us">Contact us</a></li>
+					<li><a href="https://whc.ca/about/careers">Careers</a></li>
+					<li><a href="https://whc.ca/affiliates">Affiliate Program</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-12">
+				<ul>
+					<li>Support</li>
+					<li><a href="https://clients.whc.ca/en/knowledgebase">Help Center</a></li>
+					<li><a href="https://clients.whc.ca/supporttickets.php?language=english">Open Support Ticket</a></li>
+					<li><a href="https://whcstatus.ca" target="_blank">Systems Status</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				Follow us				<a href="https://www.facebook.com/WHC.CA" target="_blank" class="facebook">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://twitter.com/webhostcanada" target="_blank" class="twitter">
+					<span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+				<a href="https://www.linkedin.com/company/web-hosting-canada/" target="_blank" class="linkedin">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+				<a href="https://www.youtube.com/c/WhcCa?sub_confirmation=1" target="_blank" class="youtube">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+				<div class="pull-right float-right">
+					<i class="fa fa-phone" aria-hidden="true"></i> 1 514 504-2113 (24/7 Support)
+					<i class="fa fa-map-marker" aria-hidden="true"></i> 7250 Rue Clark #301, Montréal, Québec H2R 2Y3 Canada				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="footer">
+	<div class="footer-ca-promo-container">* Rated #1 by the Canadian Internet Registration Authority (CIRA) for March 2017 from over 100 accredited registrars based on several metrics including .CA domains under management, growth rate, and retention rate.</div>
+    <p style="margin-top:0;">© 2022 <a href="https://whc.ca">Web Hosting Canada</a> </p>
+            <a href="https://whc.ca/green-powered/" onclick="window.open(this.href, 'popupWindow', 'width=450, height=538, status=no, scrollbars=no, menubar=no'); return false;"><img id="greenHostingBadge" src="https://s.whc.ca/badges/green-badge-1.svg" alt="Green Web Hosting"></a>
+        <ul>
+            <li><a href="https://whc.ca/legal">Legal</a></li>
+            <li><a href="https://whc.ca/legal/privacy-policy">Privacy Policy</a></li>
+        </ul>
+        
+      <!--
+    <p style="margin-top:0; text-decoration:underline;"><a href="https://whc.ca">Back to Web Hosting Canada</a></p>
+  
+    <p class="footer-legal"><a href="https://whc.ca/legal" class="legal">Legal</a> | <a href="https://whc.ca/legal/privacy-policy">Privacy Policy</a></p>
+-->
+</section>
+
+<div id="fullpage-overlay" class="hidden">
+    <div class="outer-wrapper">
+        <div class="inner-wrapper">
+            <img src="/assets/img/overlay-spinner.svg">
+            <br>
+            <span class="msg"></span>
+        </div>
+    </div>
+</div>
+
+<div class="modal system-modal fade" id="modalAjax" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content panel-primary">
+            <div class="modal-header panel-heading">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body panel-body">
+                Loading...
+            </div>
+            <div class="modal-footer panel-footer">
+                <div class="pull-left loader">
+                    <i class="fas fa-circle-notch fa-spin"></i>
+                    Loading...
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary modal-submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form action="#" id="frmGeneratePassword" class="form-horizontal">
+    <div class="modal fade" id="modalGeneratePassword">
+        <div class="modal-dialog">
+            <div class="modal-content panel-primary">
+                <div class="modal-header panel-heading">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">
+                        Generate Password
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-danger hidden" id="generatePwLengthError">
+                        Please enter a number between 8 and 64 for the password length
+                    </div>
+                    <div class="form-group">
+                        <label for="generatePwLength" class="col-sm-4 control-label">Password Length</label>
+                        <div class="col-sm-8">
+                            <input type="number" min="8" max="64" value="12" step="1" class="form-control input-inline input-inline-100" id="inputGeneratePasswordLength">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="generatePwOutput" class="col-sm-4 control-label">Generated Password</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="inputGeneratePasswordOutput">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-4">
+                            <button type="submit" class="btn btn-default btn-sm">
+                                <i class="fas fa-plus fa-fw"></i>
+                                Generate new password
+                            </button>
+                            <button type="button" class="btn btn-default btn-sm copy-to-clipboard" data-clipboard-target="#inputGeneratePasswordOutput">
+                                <img src="/assets/img/clippy.svg" alt="Copy to clipboard" width="15">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btnGeneratePasswordInsert" data-clipboard-target="#inputGeneratePasswordOutput">
+                        Copy to clipboard and Insert
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+
+<script>$('[data-toggle="tooltip"]').tooltip();</script>
+
+
+
+
+    <!-- BEGIN PHP Live! HTML Code [V2] -->
+	<span style="color: #0000FF; text-decoration: underline; line-height: 0px !important; cursor: pointer;" id="phplive_btn_1557518246" onclick="phplive_launch_chat_1557501240()"></span>
+	<script data-cfasync="false" type="text/javascript">
+
+	(function() {
+	var phplive_href = encodeURIComponent( location.href ) ;
+	var phplive_e_1557518246 = document.createElement("script") ;
+	phplive_e_1557518246.type = "text/javascript" ;
+	phplive_e_1557518246.async = true ;
+	phplive_e_1557518246.src = "https://chat.whc.ca/js/phplive_v2.js.php?v=1557501240|1557518246|2|&r="+phplive_href ;
+	document.getElementById("phplive_btn_1557518246").appendChild( phplive_e_1557518246 ) ;
+	})() ;
+
+	</script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onRecaptcha&render=explicit" async defer></script>
+</body>
+</html>
