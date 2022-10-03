@@ -1,20 +1,20 @@
 var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 var app = express();
+var path = require("path");
+
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-    res.send("yash sanjay patel - 150249217");
+    res.sendFile(path.join(__dirname, "blog.html"));
 });
 
-app.get("/blog", (req, res) => {
-    res.redirect("/blog");
-});
+
 app.get("/article", (req, res) => {
-    res.redirect("/article");
+    res.sendFile(path.join(__dirname, "article.html"));
 });
 app.get("/login", (req, res) => {
-    res.redirect("/login");
+    res.sendFile(path.join(__dirname, "login.html"));
 });
 
 
